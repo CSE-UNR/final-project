@@ -19,6 +19,8 @@ This project is loosely based on the game of Battleship (https://en.wikipedia.or
 - Game play consists of prompting a user for where they'd like to "fire" on the opposing player. If they've hit part of a ship, they will see an `X` in that spot. If it's a miss, they will see a `O`. All other spots will be blank until fired upon. 
    - Game play should continue until all parts of every ship have been "hit".
 - After the game is done, the user should be shown their score and prompted to play again.
+   - The score should start with 100. The number of guess should be deducted then the number of spots required to sink all the ships can be added back to the score.
+      - For example, if it took the exact number of guesses to hit all the spots, the score would be 100.
 
 ## Requirements
 - **You may *NOT* use any libraries other than `stdio` and `stdbool`.**
