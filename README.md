@@ -25,7 +25,7 @@ There are two example files provided so you can understand the input format.
 - **You may *NOT* use any libraries other than `stdio` and `stdbool`.**
    - Any string functions used must be written within the program.
    - You may re-use the functions you wrote in Project 6.
-- There must be ***at least*** 5 functions, in addition to the main (my program had 5)
+- There must be ***at least*** 5 functions, in addition to the main (my program had 8)
 - Any arrays must be used in the conventional way.
    - Index values should start `0`
    - Index values should end at `size - 1`, unless it is a C-style string.
